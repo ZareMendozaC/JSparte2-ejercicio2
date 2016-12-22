@@ -2,6 +2,17 @@
 *{
 	box-sizing: border-box;
 }
+body{
+	background: url(../image/fondo4.jpg) no-repeat center;
+	background-size: cover;
+	height: 700px;
+}
+.container h1 {
+	color: white;
+}
+.container p {
+	color: white;
+}
 .resultado .frase{
 	font-size: 20px;
 }
@@ -9,3 +20,13 @@
 	width: 80%;
 	margin: 0px auto;
 }
+.form-group{
+	color: white;
+}
+.resultado{
+	color: white;
+}
+.resultado h4{
+	color: white;
+}
+
