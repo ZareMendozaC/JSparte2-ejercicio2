@@ -1,0 +1,11 @@
+/* Inserta tu código aquí */
+*{
+	box-sizing: border-box;
+}
+.resultado .frase{
+	font-size: 20px;
+}
+.resultado .imagen img{
+	width: 80%;
+	margin: 0px auto;
+}

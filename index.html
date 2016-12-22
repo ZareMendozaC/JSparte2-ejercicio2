@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>¿Qué día es hoy?</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	<link rel="stylesheet icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/queries.css">
+
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1>¿Dormimos?</h1>
+				<p>Completa el formulario y te diré si puedes hacerlo</p>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-2">
+				<div class="form-group">
+					<label for="dia">¿Qué día es hoy?</label>
+					<select class="form-control" id="dia">
+						<option value="1">Lunes</option>
+						<option value="2">Martes</option>
+						<option value="3">Miércoles</option>
+						<option value="4">Jueves</option>
+						<option value="5">Viernes</option>
+						<option value="6">Sábado</option>
+						<option value="7">Domingo</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="vacaciones">¿Estás de vacaciones?</label>
+					<select class="form-control" id="vacaciones">
+						<option value="1">Si</option>
+						<option value="2">No</option>
+					</select>
+				</div>
+				<button onclick="calcular()" class="btn btn-primary">Evaluar</button>
+			</div>
+			<div class="col-md-3 text-center resultado">
+				<h4 class="text-info">Hoy</h4>
+				<div id="salida" class="frase" class="text-center">-</div>
+				<div id="img" class="imagen"></div>
+
+				<!--<h4 class="text-info">podrás dormir</h4>-->
+	</div>
+	</section>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
