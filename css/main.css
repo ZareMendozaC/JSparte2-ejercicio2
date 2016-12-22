@@ -5,7 +5,14 @@
 body{
 	background: url(../image/fondo4.jpg) no-repeat center;
 	background-size: cover;
-	height: 700px;
+	height: 620px;
+}
+.container{
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: rgba(102,217,239,0.3);
+	height: 600px;
+	max-width: 100%;
 }
 .container h1 {
 	color: white;
@@ -29,4 +36,28 @@ body{
 .resultado h4{
 	color: white;
 }
+/*medias querys*/
+@media (min-width: 320px)and (max-width: 768px)
+{
+		.resultado .imagen img{
+			width: 80%;
+			margin: 0px auto;
+			max-width:50%;
+}
 
+
+}
+@media (min-width: 768px)and (max-width: 1024px)
+{
+	.resultado .imagen img{
+			width: 25%;
+			margin: 0px auto;
+		}
+}
+@media (min-width: 1024px)and (max-width: 1336px)
+{
+	.resultado .imagen img{
+			width: 100%;
+			margin: 0px auto;
+		}
+}
