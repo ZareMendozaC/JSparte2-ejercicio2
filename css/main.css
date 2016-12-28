@@ -36,6 +36,21 @@ body{
 .resultado h4{
 	color: white;
 }
+.navegacion { 
+	margin-top: 40px;
+}
+.navegacion a{
+	text-decoration: none;
+}
+.navegacion .micode{
+	color: white;
+	color: #ffffff;
+	font-size: 20px;
+}
+.navegacion .micode:hover{
+	color: #5bc0de;
+	font-size: 20px;
+}
 /*medias querys*/
 @media (min-width: 320px)and (max-width: 768px)
 {
